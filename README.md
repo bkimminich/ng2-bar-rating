@@ -9,16 +9,20 @@
 [![Build Status](https://travis-ci.org/MurhafSousli/ngx-bar-rating.svg)](https://travis-ci.org/MurhafSousli/ngx-bar-rating)
 [![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
+> ![THIS IS NOT THE PACKAGE YOU ARE LOOKING FOR](http://i0.kym-cdn.com/entries/icons/original/000/018/682/obi-wan.jpg)
+>
+> THIS IS **NOT** THE MODULE YOU ARE LOOKING FOR! Please use https://github.com/dchester/epilogue! This repository exists only for security awareness and training purposes to demonstrate the issue of _typosquatting_! Please read https://github.com/bkimminich/juice-shop/issues/368 and https://iamakulov.com/notes/npm-malicious-packages/ for more information!
+
 ___
 
-## Table of Contents 
- 
+## Table of Contents
+
  - [Live Demo](https://MurhafSousli.github.io/ngx-bar-rating)
  - [Installation](#installation)
- - [Usage](#usage) 
+ - [Usage](#usage)
  - [Options](#options)
  - [Themes](#themes)
- - [Issues](#issues) 
+ - [Issues](#issues)
  - [Author](#author)
 
 <a name="installation"/>
@@ -198,4 +202,3 @@ If you identify any errors in this component, or have an idea for an improvement
 
  - [github/murhafsousli](https://github.com/MurhafSousli)
  - [twitter/murhafsousli](https://twitter.com/MurhafSousli)
-
