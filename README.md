@@ -31,17 +31,17 @@ ___
 
 Install it with npm
 
-`npm install --save ngx-bar-rating`
+`npm install --save ng2-bar-rating`
 
 ### SystemJS
 
 If you are using SystemJS, you should also adjust your configuration to point to the UMD bundle.
 
-In your systemjs config file, map needs to tell the System loader where to look for ngx-bar-rating:
+In your systemjs config file, map needs to tell the System loader where to look for ng2-bar-rating:
 
 ```
 map: {
-  'ngx-bar-rating': 'node_modules/ngx-bar-rating/bundles/ngx-bar-rating.umd.js',
+  'ng2-bar-rating': 'node_modules/ng2-bar-rating/bundles/ngx-bar-rating.umd.js',
 }
 ```
 Here is a working [plunkr](https://plnkr.co/edit/ZLSw4BV3ejRYkuWWAmoF?p=preview) | [stackblitz](https://stackblitz.com/edit/ngx-bar-rating)
@@ -53,7 +53,7 @@ Here is a working [plunkr](https://plnkr.co/edit/ZLSw4BV3ejRYkuWWAmoF?p=preview)
 Import `BarRatingModule` in the root module
 
 ```ts
-import { BarRatingModule } from "ngx-bar-rating";
+import { BarRatingModule } from "ng2-bar-rating";
 
 @NgModule({
   imports: [
@@ -126,7 +126,7 @@ It can be used with angular forms and reactive forms, for example:
 Add the rating theme either in `index.html`
 
 ```html
-<link rel="stylesheet" href="../node_modules/ngx-bar-rating/themes/br-default-theme.css"/>
+<link rel="stylesheet" href="../node_modules/ng2-bar-rating/themes/br-default-theme.css"/>
 ```
 
 Or in the global style `style.scss` (recommended)

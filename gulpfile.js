@@ -55,7 +55,7 @@ const rollupUglify = require('rollup-plugin-uglify');
 const gulpSass = require('gulp-sass');
 
 
-const LIBRARY_NAME = 'ngx-bar-rating';
+const LIBRARY_NAME = 'ng2-bar-rating';
 
 const config = {
     allTs: 'src/**/!(*.spec).ts',
@@ -96,7 +96,7 @@ function execCallback(gulpDone) {
         if (stdout) {
             gutil.log(gutil.colors.green(stdout));
         }
-        // execute callback when its done 
+        // execute callback when its done
         if (gulpDone) {
             gulpDone();
         }
